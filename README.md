@@ -85,3 +85,36 @@ Compiler optimization is the process of improving the performance and efficiency
 - **Common Subexpression Elimination**: Identifies and reuses repeated expressions to avoid redundant calculations.
 
 > These optimizations help compilers generate more efficient executables, improving speed and resource usage.
+
+# Everything You Need to Know About Compilers
+
+[Badges: language, license, status]
+
+## Table of Contents  
+1. Introduction  
+2. Compiler vs Interpreter  
+3. Compiler Architecture  
+   - Diagram / Flow  
+   - Modules (lexer, parser, semantic, optimizer, code generator)  
+4. Compilation Phases  
+   - Preprocessing, parsing, semantic, IR, optimization, codegen, linking  
+5. Semantic Analysis & Symbol Table  
+6. Intermediate Representation (IR)  
+7. Optimizations  
+   - Peephole, constant folding, dead code elimination, etc.  
+   - Examples before/after  
+8. Code Generation & Backend  
+   - Target architecture  
+   - Register allocation, function calls  
+9. Error Handling  
+10. AST / Parse Tree Output  
+11. Usage & Demo  
+    ```bash
+    build step…
+    run step…
+    ```  
+    - Sample inputs and outputs  
+12. Performance / Benchmarks  
+13. Roadmap / Future Work  
+14. Contributing  
+15. License  
