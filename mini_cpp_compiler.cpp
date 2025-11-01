@@ -3,6 +3,7 @@ using namespace std;
 
 // --- Token Types ---
 // These are all the possible types of tokens our mini language supports.
+// Its like using a Union to save memory by sharing spaces;
 enum TokenType { INT, PRINT, IDENT, NUMBER, PLUS, MINUS, MUL, DIV, ASSIGN, LPAREN, RPAREN, SEMICOLON, END };
 
 // --- Token ---
