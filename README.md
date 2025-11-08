@@ -30,7 +30,7 @@ A typical compiler consists of the following modules:
 The compilation process involves several stages:
 
 1. **Preprocessing**: Handles directives like `#include` and `#define` in C/C++.
-2. **Compilation**: Translates preprocessed code into assembly language.
+2. **Compilation**: Translates preprocessed code into assembly language  -o code( g++ test.cpp -o test).
 3. **Assembly**: Converts assembly language into machine code (object files).
 4. **Linking**: Combines object files and libraries into a final executable program.
 
